@@ -1,0 +1,7 @@
+/data
+/files
+/plugins
+node_modules
+package-lock.json
+themes/*
+!themes/custom
