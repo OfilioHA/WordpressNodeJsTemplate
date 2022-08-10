@@ -38,7 +38,7 @@ services:
     restart: "no"
     volumes: [
       './plugins/:/var/www/html/wp-content/plugins',
-      './themes/:/var/www/html/wp-content/themes',
+      './theme/:/var/www/html/wp-content/themes/custom',
       './files/:/var/www/html/wp-content/uploads'
     ]
     environment:
