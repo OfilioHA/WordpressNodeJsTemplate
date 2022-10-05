@@ -1,4 +1,4 @@
-FROM node:latest AS node
+FROM node:16 AS node
 FROM wordpress:latest
 
 COPY --from=node /usr/local/lib/node_modules /usr/local/lib/node_modules
